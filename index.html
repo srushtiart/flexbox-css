@@ -1,8 +1,49 @@
 <html>
   <head>
-    <title>Web Dev Class</title>
-     </head>
-    <body>
-      <h1>CSS Flexbox Practice</h1>
-    </body>
+    <title>Flexbox Paractice</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 800px;
+/*         background-color: yellow; */
+        border:3px solid green;
+        height: 300px;
+        padding: 10px;
+        display:flex;
+        flex-direction:row-reverse;
+        color:white;
+        justify-content: space-between;
+       
+       
+        align-items: center;
+        
+      }
+      .blue {
+        width: 250px;
+         border:3px solid blue;
+/*         background-color: blue; */
+        height: 100px;
+          
+      }
+      .orange {
+        width: 100px;
+         border:3px solid orange;
+/*         background-color: orange; */
+        height: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="blue">box1</div>
+      <div class="orange">box2</div>
+      <div class="blue">box3</div>
+      <div class="orange">box4</div>
+      
+    </div>
+  </body>
 </html>
