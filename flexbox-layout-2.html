@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>Flexbox Paractice</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .container {
+        width: 1000px;
+        background-color: blue;
+        height: 100px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      .purple {
+        width: 150px;
+        background-color: purple;
+        height: 50px;
+        margin: 5px;
+      }
+      .container-2 {
+        width: 800px;
+        background-color: blue;
+        height: 520px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+      }
+      .orange {
+        width: 780px;
+        background-color: orange;
+        height: 500px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .yellow {
+        width: 760px;
+        background-color: yellow;
+        height: 100px;
+        /*         margin-top:30px; */
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 28px;
+      }
+      .container-3 {
+        width: 1000px;
+        background-color: purple;
+        height: 100px;
+        display: flex;
+      }
+      .green {
+        background-color: green;
+        margin: 10px;
+        padding: 10px;
+        width: 700px;
+      }
+      .green2 {
+        background-color: green;
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="purple"></div>
+      <div class="purple"></div>
+      <div class="purple"></div>
+      <div class="purple"></div>
+    </div>
+    <div class="container-2">
+      <div class="orange">
+        <div class="yellow">Box 1</div>
+        <div class="yellow">Box 2</div>
+        <div class="yellow">Box 3</div>
+        <div class="yellow">Box 4</div>
+      </div>
+    </div>
+    <div class="container-3">
+      <div class="green"></div>
+      <div class="green2"></div>
+    </div>
+  </body>
+</html>
