@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <title>Flexbox Paractice</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .border-container {
+        border: 10px solid grey;
+      }
+      .container {
+        width: 1000px;
+        background-color: blue;
+        height: 100px;
+        margin: 30px;
+        /*         padding: 10px; */
+        display: flex;
+        justify-content: space-between;
+      }
+      .purple {
+        width: 150px;
+        background-color: purple;
+        height: 50px;
+        margin: 20px;
+      }
+      .container-2 {
+        width: 800px;
+        background-color: blue;
+        height: 480px;
+        /*         padding: 10px; */
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+      }
+      .orange {
+        width: 780px;
+        background-color: orange;
+        height: 460px;
+        margin: 5px;
+        display: flex;
+        /*         flex-direction: space-around; */
+      }
+      .yellow {
+        width: 200px;
+        background-color: yellow;
+        height: 440px;
+        /*                 margin-top:30px; */
+        margin: 10px;
+        display: flex;
+        /*         justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 28px; */
+      }
+      .yellow3 {
+        width: 360px;
+        background-color: yellow;
+        height: 440px;
+        /*                 margin-top:30px; */
+        margin: 10px;
+        display: flex;
+        /*         justify-content: center;
+        align-items: center; */
+        /*         color: white;
+        font-size: 28px; */
+      }
+      .container-3 {
+        width: 100%;
+        background-color: purple;
+        height: 80px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border-container">
+      <div class="container">
+        <div class="purple"></div>
+        <div class="purple"></div>
+        <div class="purple"></div>
+        <div class="purple"></div>
+      </div>
+
+      <div class="container-2">
+        <div class="orange">
+          <div class="yellow"></div>
+          <div class="yellow"></div>
+          <div class="yellow3"></div>
+        </div>
+      </div>
+
+      <div class="container-3"></div>
+    </div>
+  </body>
+</html>
