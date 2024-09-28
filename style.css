@@ -1,0 +1,31 @@
+html {
+    background: #2c7da0;
+    color: #ffffff;
+  }
+  
+  /* a {
+    color: #ffffff;
+  } */
+  .main-heading3{
+    color:red;
+    font-size: 40px;
+    
+  }
+  /* layout */
+  body{
+    display:flex;
+    padding:20px;
+    align-items:center;
+  }
+  .container{
+    padding:20px;
+    width:50%;
+    background-color:#ffb4a2;
+    
+  }
+  h2{
+    font-size:20px;
+    color:#10451d;
+    text-align:center;
+    
+  }
